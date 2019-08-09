@@ -1,0 +1,24 @@
+
+Usage: ./follow_test.run -m hostname -p port_number -t nb_timeline_requests -s [activate_streaming]
+./babble_server.run
+
+
+Usage: ./babble_client.run -m hostname -p port_number -i client_name
+./babble_client.run -i bushra
+
+
+Usage: ./follow_test.run -m hostname -p port_number -t nb_timeline_requests -s [activate_streaming]
+./follow_test.run -t 5
+
+
+Usage: ./stress_test.run -n NumberOfClients -k NumberOfMsg -s "use streaming"
+./stress_test.run -n 2 -k 3 -s
+
+
+
+
+
+To kill a process:
+------------------
+ps -a
+kill -9 pid#
